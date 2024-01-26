@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import s from './inicio.module.css';
 
 const Inicio = () => {
@@ -20,7 +21,7 @@ const Inicio = () => {
             <section className={s.section_two}>
                 <h1 className={s.title}>Sangre y Agua</h1>
                 <p>
-                    EL hecho que me indujo a comenzar a escribir este blog,
+                    Quiero comenzar explicando que el hecho que me indujo a comenzar a escribir este blog,
                     fue una pregunta que me hizo mi hija de 14 años, que está preparándose
                     para la confirmación. En su grupo de catequesis, el celebrador
                     les envió un audio para que investiguen, reflexionen y formen un debate.
@@ -28,23 +29,16 @@ const Inicio = () => {
                     una persona exponía que los católicos bautizaban a los niños
                     recién nacidos, y que eso no era necesario, porque los bebés
                     son inocentes y no tienen ningún pecado, y por lo tanto,
-                    no era necesario bautizarlos.
+                    no era necesario bautizarlos. Estoy segura que muchos de
+                    ustedes han escuchado o leído esto, por eso es importante comenzar explicando
+                    qué es el Bautismo.
                 </p>
-
-
-            </section >
-            <section className={s.espacio}>
-            </section>
-            <section className={s.section_three}>
+                <p>El Bautismo es un Sacramento de la Iglesia Católica Apostólica Romana,
+                    que nació del costado de Cristo, cuando un soldado romano, clavó su lanza
+                    y brotaron Sangre y Agua en abundancia. <Link to='https://www.vatican.va/archive/catechism_sp/p123a9p1_sp.html#II%20Origen,%20fundaci%C3%B3n%20y%20misi%C3%B3n%20de%20la%20Iglesia'>(CIC 766)</Link>
+                </p>
                 <p>
-                    Ana Catalina Emmerick, narra que cuando Cristo murió en la cruz,
-                    uno de los soldados que estaba cerca, clavó su lanza en el costado
-                    de Jesús, para comprobar que ya había fallecido. La beata describe
-                    como brotó abundantemente Sangre y Agua, y cubrió totalmente al soldado,
-                    este se arrodilló y reconoció que el que estaba en la cruz, es el mismo DIOS.
-                    Es decir, se produjo la converción del soldado, a través de la Sangre y el Agua
-                    que brotó del costado de Cristo.
-                    Recibió el bautismo, entonces el Espíritu Santo penetró en su alma y lo liberó de su ceguera.
+                    Era necesario explicar
                 </p>
                 <p>
                     No es una casualidad empezar por esta oración,
@@ -68,6 +62,25 @@ const Inicio = () => {
                     que Dios con todo su AMOR puso a nuestra disposición por nuestra
                     Salvación ETERNA.
                 </p>
+
+
+
+            </section >
+            <section className={s.espacio}>
+            </section>
+            <section className={s.section_three}>
+                <p>
+                    Ana Catalina Emmerick, narra que cuando Cristo murió en la cruz,
+                    uno de los soldados que estaba cerca, clavó su lanza en el costado
+                    de Jesús, para comprobar que ya había fallecido. La beata describe
+                    como brotó abundantemente Sangre y Agua, y cubrió totalmente al soldado,
+                    este se arrodilló y reconoció que el que estaba en la cruz, es el mismo DIOS.
+                    Es decir, se produjo la converción del soldado, a través de la Sangre y el Agua
+                    que brotó del costado de Cristo.
+                    Recibió el bautismo, entonces el Espíritu Santo penetró en su alma y lo liberó de su ceguera.
+                </p>
+
+
                 <p>
 
                 </p>

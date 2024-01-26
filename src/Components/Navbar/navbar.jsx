@@ -11,6 +11,7 @@ const Navbar = () => {
             <section className={s.menu}>
                 <span>INICIO</span>
                 <span>QUIEN SOY</span>
+                <span>CONTACTO</span>
             </section>
         </nav>
     )
