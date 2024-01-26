@@ -1,0 +1,117 @@
+.main {
+    min-height: 100vh;
+    background: var(--color-body);
+    color: var(--color-texto-oscuro);
+    background-image: url('../../../public/images/monte-olivos.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.section_one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 300px;
+
+}
+
+.message {
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    height: 300px;
+    position: relative;
+    padding: 50px;
+    /* background-color: var(--color-5); */
+}
+
+.image {
+    width: 300px;
+    /* margin: 50px 0px 0px 100px; */
+    border-radius: 150px 150px 0px 0px;
+    position: absolute;
+    margin-top: 20px;
+}
+
+.cuadrado_grande {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-4);
+    width: 350px;
+    height: 150px;
+    padding: 20px;
+    position: absolute;
+    top: 140px;
+    left: 320px;
+
+    font-family: Great Vibes, sans-serif;
+    font-size: x-large;
+    color: var(--color-5)
+}
+
+.destacado {
+    font-family: Kalnia, sans-serif;
+    font-size: xx-large;
+}
+
+.cuadrado_chico {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-3);
+    color: var(--color-5);
+    width: 290px;
+    height: 30px;
+    padding: 10px;
+    position: absolute;
+    top: 305px;
+    left: 360px;
+    font-family: Julius Sans One, sans-serif;
+}
+
+.section_two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 50px;
+    background-color: var(--color-4);
+
+    font-family: Raleway, sans-serif;
+    line-height: 20px;
+
+}
+
+.title {
+    display: flex;
+    justify-content: start;
+    width: 100vw;
+    padding: 0px 0px 20px 100px;
+    font-family: Great Vibes, sans-serif;
+    font-size: x-large;
+    color: var(--color-1)
+}
+
+.espacio {
+    height: 200px;
+}
+
+.section_three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 50px;
+    background-color: var(--color-5);
+
+    font-family: Raleway, sans-serif;
+    line-height: 20px;
+}

@@ -1,0 +1,8 @@
+.footer {
+    height: 150px;
+    background-color: var(--color-footer);
+
+    color: var(--color-texto-claro);
+    font-family: Julius Sans One, sans-serif;
+    padding: 10px;
+}
