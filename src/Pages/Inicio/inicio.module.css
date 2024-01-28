@@ -30,14 +30,17 @@
 }
 
 .image {
+    z-index: 1;
     width: 300px;
     /* margin: 50px 0px 0px 100px; */
     border-radius: 150px 150px 0px 0px;
     position: absolute;
     margin-top: 20px;
+
 }
 
 .cuadrado_grande {
+    z-index: 2;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -50,22 +53,26 @@
     top: 140px;
     left: 320px;
 
-    font-family: Great Vibes, sans-serif;
-    font-size: x-large;
-    color: var(--color-5)
+    font-family: Tangerine, sans-serif;
+    font-size: xx-large;
+    color: var(--color-5);
+    text-shadow: 1px 1px 5px black;
 }
 
 .destacado {
     font-family: Kalnia, sans-serif;
     font-size: xx-large;
+    color: var(--color-5);
+    text-shadow: 1px 1px 5px black;
 }
 
 .cuadrado_chico {
+    z-index: 3;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: var(--color-3);
-    color: var(--color-5);
+    color: var(--color-texto-claro);
     width: 290px;
     height: 30px;
     padding: 10px;
@@ -76,10 +83,10 @@
 }
 
 .section_two {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
 
     padding: 50px;
     background-color: var(--color-4);
@@ -87,21 +94,55 @@
     font-family: Raleway, sans-serif;
     line-height: 20px;
 
+    position: relative;
+
+    margin: 30px;
 }
 
 .title {
     display: flex;
     justify-content: start;
+    align-items: center;
+    gap: 20px;
     width: 100vw;
-    padding: 0px 0px 20px 100px;
-    font-family: Great Vibes, sans-serif;
-    font-size: x-large;
-    color: var(--color-1)
+    padding: 20px 0px 20px 100px;
+    font-family: Tangerine, sans-serif;
+    font-size: 50px;
+    color: var(--color-5);
+    text-shadow: 1px 1px 5px black;
+}
+
+.foto {
+    float: right;
+    margin: 20px;
+
+    /* position: absolute; */
+
+    /* bottom: 10px;
+    right: 50px; */
+    height: 200px;
+    border-color: var(--color-5);
+    border-style: solid;
+    border-width: 10px 10px 50px 10px;
+    box-shadow: 1px 1px 5px black;
+
+
+}
+
+.svg {
+    float: right;
+    margin: 10px;
 }
 
 .espacio {
+    display: flex;
+    justify-content: end;
+    margin-right: 100px;
     height: 200px;
+
 }
+
+
 
 .section_three {
     display: flex;
@@ -114,4 +155,6 @@
 
     font-family: Raleway, sans-serif;
     line-height: 20px;
+
+    margin: 30px;
 }

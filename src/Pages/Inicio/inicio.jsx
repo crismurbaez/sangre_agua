@@ -19,28 +19,45 @@ const Inicio = () => {
             </section>
 
             <section className={s.section_two}>
-                <h1 className={s.title}>Sangre y Agua</h1>
+                <h1 className={s.title}>Sangre y Agua
+
+                </h1>
+
                 <p>
-                    Quiero comenzar explicando que el hecho que me indujo a comenzar a escribir este blog,
-                    fue una pregunta que me hizo mi hija de 14 años, que está preparándose
+
+                    <img className={s.svg} width={50} src="./images/sol.svg" alt="c" />
+                    Quiero comenzar explicando el origen de este texto.
+                    Mi hija de 14 años, me hizo una pregunta debido a que está preparándose
                     para la confirmación. En su grupo de catequesis, el celebrador
                     les envió un audio para que investiguen, reflexionen y formen un debate.
+
                     El cual me pareció muy importante, porque en ese audio,
+                    <img className={s.svg} width={50} src="./images/sol.svg" alt="c" />
                     una persona exponía que los católicos bautizaban a los niños
                     recién nacidos, y que eso no era necesario, porque los bebés
                     son inocentes y no tienen ningún pecado, y por lo tanto,
                     no era necesario bautizarlos. Estoy segura que muchos de
                     ustedes han escuchado o leído esto, por eso es importante comenzar explicando
                     qué es el Bautismo.
-                </p>
-                <p>El Bautismo es un Sacramento de la Iglesia Católica Apostólica Romana,
-                    que nació del costado de Cristo, cuando un soldado romano, clavó su lanza
-                    y brotaron Sangre y Agua en abundancia. <Link to='https://www.vatican.va/archive/catechism_sp/p123a9p1_sp.html#II%20Origen,%20fundaci%C3%B3n%20y%20misi%C3%B3n%20de%20la%20Iglesia'>(CIC 766)</Link>
+
                 </p>
                 <p>
-                    Era necesario explicar
+
+                    El Bautismo es un Sacramento de la Iglesia Católica Apostólica Romana,
+                    que nació junto con la Iglesia del costado de Cristo, cuando un soldado romano, clavó su lanza
+                    y brotaron Sangre y Agua en abundancia.
+                    <Link target="blank" to='https://www.vatican.va/archive/catechism_sp/p123a9p1_sp.html#II%20Origen,%20fundaci%C3%B3n%20y%20misi%C3%B3n%20de%20la%20Iglesia'>(CIC 766) </Link>
+
                 </p>
                 <p>
+
+
+
+
+                    <img className={s.foto} src="./images/Ana-Catalina-Emmerick.jpg" alt="Ana Catalina Emmerick" />
+
+
+
                     No es una casualidad empezar por esta oración,
                     porque la considero esencial y punto central de
                     toda la acción salvadora de Cristo Jesús. La primera vez
@@ -50,23 +67,28 @@ const Inicio = () => {
                     tiene una gran cantidad de escritos extraordinarios que narran
                     desde la creación de los Ángeles, la creación del Mundo, todo el Antiguo Testamento
                     y el Nuevo Testamento.
-                </p>
-                <p>La beata, narra lo que Dios le permite ver desde
-                    que tenía tres años. Quiero comenzar por este tema, porque considero
-                    que es un punto esencial que debemos saber todos, sobre todo porque
-                    se trata de la Salvación del Mundo. Y además porque los católicos
-                    debemos saber defender nuestra Fe,  debemos profundizar
-                    muy bien sobre sus preceptos, mandamientos y Sacramentos,
-                    para hacer uso de ellos, tal como Dios quiere que lo hagamos.
-                    Porque no sea cosa que desperdiciemos el tesoro incalculable
-                    que Dios con todo su AMOR puso a nuestra disposición por nuestra
-                    Salvación ETERNA.
+
                 </p>
 
+                <div>
+                    <img className={s.foto} src="./images/Ana-Catalina-Emmerick-2.jpg" alt="Ana Catalina Emmerick" />
+                    <p>La beata, narra lo que Dios le permite ver desde
+                        que tenía tres años. Quiero comenzar por este tema, porque considero
+                        que es un punto esencial que debemos saber todos, sobre todo porque
+                        se trata de la Salvación del Mundo. Y además porque los católicos
+                        debemos saber defender nuestra Fe,  debemos profundizar
+                        muy bien sobre sus preceptos, mandamientos y Sacramentos,
+                        para hacer uso de ellos, tal como Dios quiere que lo hagamos.
+                        Porque no sea cosa que desperdiciemos el tesoro incalculable
+                        que Dios con todo su AMOR puso a nuestra disposición por nuestra
+                        Salvación ETERNA.
+                    </p>
 
 
+                </div>
             </section >
             <section className={s.espacio}>
+
             </section>
             <section className={s.section_three}>
                 <p>
