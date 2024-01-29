@@ -20,43 +20,42 @@ const Inicio = () => {
 
             <section className={s.section_two}>
                 <h1 className={s.title}>Sangre y Agua
-
                 </h1>
 
-                <p>
+                <p className={s.parrafo}>
 
-                    <img className={s.svg} width={50} src="./images/sol.svg" alt="c" />
-                    Quiero comenzar explicando el origen de este texto.
-                    Mi hija de 14 años, me hizo una pregunta debido a que está preparándose
-                    para la confirmación. En su grupo de catequesis, el celebrador
-                    les envió un audio para que investiguen, reflexionen y formen un debate.
+                    Me gustaría comenzar explicando que me decidí a escribir este texto porque
+                    somos muchos los que nos encontramos con preguntas del tipo que paso a describir:
+                    <p>
+                        <q>A mi hija de 14 años que está preparándose
+                            para la confirmación, el celebrador de su grupo de catequesis
+                            le envió un audio para que investiguen, reflexionen y formen un debate.
 
-                    El cual me pareció muy importante, porque en ese audio,
-                    <img className={s.svg} width={50} src="./images/sol.svg" alt="c" />
-                    una persona exponía que los católicos bautizaban a los niños
-                    recién nacidos, y que eso no era necesario, porque los bebés
-                    son inocentes y no tienen ningún pecado, y por lo tanto,
-                    no era necesario bautizarlos. Estoy segura que muchos de
-                    ustedes han escuchado o leído esto, por eso es importante comenzar explicando
-                    qué es el Bautismo.
+                            El cual me pareció muy importante, porque en ese audio,
+                            una persona exponía lo siguiente:
 
-                </p>
-                <p>
+                            <b>...los católicos bautizan a los niños
+                                recién nacidos, y  eso no es necesario, porque los bebés
+                                son inocentes y no tienen ningún pecado, y por lo tanto,
+                                no es necesario bautizarlos...</b></q> Estoy segura que muchos de
+                        ustedes han escuchado o leído esto, por eso es importante comenzar explicando
+                        qué es el Bautismo.
 
-                    El Bautismo es un Sacramento de la Iglesia Católica Apostólica Romana,
-                    que nació junto con la Iglesia del costado de Cristo, cuando un soldado romano, clavó su lanza
-                    y brotaron Sangre y Agua en abundancia.
-                    <Link target="blank" to='https://www.vatican.va/archive/catechism_sp/p123a9p1_sp.html#II%20Origen,%20fundaci%C3%B3n%20y%20misi%C3%B3n%20de%20la%20Iglesia'>(CIC 766) </Link>
+                    </p>
 
                 </p>
-                <p>
+                <img className={s.svg} width={50} src="./images/sol.svg" alt="c" />
+                <p className={s.parrafo}>
+                    <p>
+                        El Bautismo es un Sacramento de la Iglesia Católica Apostólica Romana,
+                        que nació junto con la Iglesia del costado de Cristo, cuando un soldado romano, clavó su lanza
+                        y brotaron Sangre y Agua en abundancia.
+                        <Link target="blank" to='https://www.vatican.va/archive/catechism_sp/p123a9p1_sp.html#II%20Origen,%20fundaci%C3%B3n%20y%20misi%C3%B3n%20de%20la%20Iglesia'> (CIC 766) </Link>
+                    </p>
+                </p>
 
-
-
-
-                    <img className={s.foto} src="./images/Ana-Catalina-Emmerick.jpg" alt="Ana Catalina Emmerick" />
-
-
+                <img className={s.foto} src="./images/Ana-Catalina-Emmerick-2.jpg" alt="Ana Catalina Emmerick" />
+                <p className={s.parrafo}>
 
                     No es una casualidad empezar por esta oración,
                     porque la considero esencial y punto central de
@@ -67,12 +66,12 @@ const Inicio = () => {
                     tiene una gran cantidad de escritos extraordinarios que narran
                     desde la creación de los Ángeles, la creación del Mundo, todo el Antiguo Testamento
                     y el Nuevo Testamento.
-
                 </p>
 
                 <div>
-                    <img className={s.foto} src="./images/Ana-Catalina-Emmerick-2.jpg" alt="Ana Catalina Emmerick" />
-                    <p>La beata, narra lo que Dios le permite ver desde
+
+                    <img className={s.foto} src="./images/Ana-Catalina-Emmerick.jpg" alt="Ana Catalina Emmerick" />
+                    <p className={s.parrafo}>La beata, narra lo que Dios le permite ver desde
                         que tenía tres años. Quiero comenzar por este tema, porque considero
                         que es un punto esencial que debemos saber todos, sobre todo porque
                         se trata de la Salvación del Mundo. Y además porque los católicos
@@ -84,14 +83,16 @@ const Inicio = () => {
                         Salvación ETERNA.
                     </p>
 
-
                 </div>
+
+
             </section >
             <section className={s.espacio}>
 
             </section>
             <section className={s.section_three}>
-                <p>
+                <p className={s.parrafo}>
+                    {/* <img className={s.svg} width={50} src="./images/sol.svg" alt="c" /> */}
                     Ana Catalina Emmerick, narra que cuando Cristo murió en la cruz,
                     uno de los soldados que estaba cerca, clavó su lanza en el costado
                     de Jesús, para comprobar que ya había fallecido. La beata describe
