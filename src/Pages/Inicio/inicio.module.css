@@ -122,7 +122,7 @@
 
 .foto {
     float: right;
-    margin: 20px;
+    margin: 10px;
     /* position: absolute; */
     /* bottom: -70px;
     right: 50px; */
@@ -131,7 +131,7 @@
     border-style: solid;
     border-width: 10px 10px 50px 10px;
     box-shadow: 1px 1px 5px black;
-
+    /* transform: translateY(200px); */
 }
 
 .svg {

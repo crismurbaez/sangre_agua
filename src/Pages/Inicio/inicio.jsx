@@ -24,7 +24,7 @@ const Inicio = () => {
 
                 <p className={s.parrafo}>
 
-                    Me gustaría comenzar explicando que me decidí a escribir este texto porque
+                    Me gustaría comenzar explicando, que me decidí a escribir este texto, porque
                     somos muchos los que nos encontramos con preguntas del tipo que paso a describir:
                     <p>
                         <q>A mi hija de 14 años que está preparándose
